@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns logom">
+                <img src="img/logo.png" id="logo">
+                <p>Home Spa</p>
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                                <h2>Busca algo especial</h2>
+                                <p>Experiencia pensada en ti</p>
+                                <form action="#" id="busqueda" method="post" class="formulario">
+                                    <input class="u-full-width" type="text" id="buscador">
+                                    <input type="submit" id="submit-buscador" class="submit-buscador">
+                                </form>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>Asesoramiento profesional <br>
+                            Aprende con distintos estilos</p>
+                    
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>Acercate a conocernos<br> y senti las fragancias 
+                        </p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>Cupon de descuento primera compra</p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-productos" class="container">
+        <h1 id="encabezado" class="encabezado">El recuerdo es el perfume del alma</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <div class="img-card">
+                    <img src="img/velas1.webp" class="imagen-producto u-full-width">
+                    </div>
+                    <div class="info-card">
+                        <h4>Damasco</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$1000 <span class="u-pull-right ">$820</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <div class="img-card">
+                            <img  src="img/velas2.webp" class="imagen-producto u-full-width">
+                        </div>
+                     
+                        <div class="info-card">
+                            <h4>Vela flower</h4>
+
+                            <img src="img/estrellas.png">
+                            <p class="precio">$750 <span class="u-pull-right ">$600</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <div class="img-card">
+                        <img src="img/velas4.jpg" class="imagen-producto u-full-width">
+                        </div>
+                        <div class="info-card">
+                            <h4>Cosmo Vela</h4>
+
+                            <img src="img/estrellas.png">
+                            <p class="precio">$450  <span class="u-pull-right ">$400</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <div class="img-card">
+                    <img src="img/velas5.jpg" class="imagen-producto u-full-width">
+                    </div>
+                    <div class="info-card">
+                        <h4>Influencia Vela</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$980  <span class="u-pull-right ">$740</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <div class="img-card">
+                        <img src="img/velas7.webp" class="imagen-producto u-full-width">
+                        </div>
+                        <div class="info-card">
+                            <h4>Paz vela</h4>
+
+                            <img src="img/estrellas.png">
+                            <p class="precio">$1000  <span class="u-pull-right ">890</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <div class="img-card">
+                        <img src="img/velas8.jpg" class="imagen-producto u-full-width">
+                        </div>
+                        <div class="info-card">
+                            <h4>Pack citricvela</h4>
+
+                            <img src="img/estrellas.png">
+                            <p class="precio">$700  <span class="u-pull-right ">$650</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <div class="img-card">
+                    <img src="img/velas8.jpg" class="imagen-producto u-full-width">
+                    </div>
+                    <div class="info-card">
+                        <h4>Terra</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$940  <span class="u-pull-right ">$740</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                          <div class="img-card">
+                        <img src="img/velas10.jpg" class="imagen-producto u-full-width">
+                        </div>
+                        <div class="info-card">
+                            <h4>Green Vela</h4>
+
+                            <img src="img/estrellas.png">
+                            <p class="precio">$750  <span class="u-pull-right ">$640</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <div class="img-card">
+                        <img src="img/velas11.jpg" class="imagen-producto u-full-width">
+                        </div>
+                        <div class="info-card">
+                            <h4>Canela</h4>
+
+                            <img src="img/estrellas.png">
+                            <p class="precio">$680 <span class="u-pull-right ">$600</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <div class="img-card">
+                        <img src="img/velas12.jpg" class="imagen-producto u-full-width">
+                        </div>
+                        <div class="info-card">
+                            <h4>Cute</h4>
+
+                            <img src="img/estrellas.png">
+                            <p class="precio">$700<span class="u-pull-right ">$620</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <div class="img-card">
+                            <img src="img/velas3.webp" class="imagen-producto u-full-width">
+                        </div>
+                            <div class="info-card">
+                                <h4>Mega Pack</h4>
+    
+                                <img src="img/estrellas.png">
+                                <p class="precio">$750 <span class="u-pull-right ">$150</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <div class="img-card">
+                            <img src="img/velas13.jpg" class="imagen-producto u-full-width">
+                            </div>
+                            <div class="info-card">
+                                <h4>Roble</h4>
+    
+                                <img src="img/estrellas.png">
+                                <p class="precio">$800 <span class="u-pull-right ">$790</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>  
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns">
+                            <nav id="principal" class="menu">
+                                <a class="enlace" href="#">Para tu Negocio</a>
+                                <a class="enlace" href="#">Conviertete en Instructor</a>
+                                <a class="enlace" href="#">Aplicaciones Móviles</a>
+                                <a class="enlace" href="#">Soporte</a>
+                                <a class="enlace" href="#">Temas</a>
+                            </nav>
+                    </div>
+                    <div class="four columns">
+                            <nav id="secundaria" class="menu">
+                                <a class="enlace" href="#">¿Quienes Somos?</a>
+                                <a class="enlace" href="#">Empleo</a>
+                                <a class="enlace" href="#">Blog</a>
+                            </nav>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
